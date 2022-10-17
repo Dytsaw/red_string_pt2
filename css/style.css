@@ -1,0 +1,155 @@
+@font-face {
+    font-family: 'Bahnschrift';
+    src: url(../fonts/BAHNSCHRIFT.TTF);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Bahnschrift';
+}
+
+a{
+    color:#4b4949 ;
+}
+
+h2{
+    font-size: 16px;
+}
+/* ------------------ Début du header ----------------- */
+
+.nav-item{
+    text-align: center;
+    
+}
+.nav-item a, .nav-item:visited, .nav-item:hover{
+    color: #51ade5;
+}
+
+.dropdown-item{
+    text-align: center;
+    color: #51ade5;
+}
+
+/* ----------------------- Début du main container --------------- */
+
+.main_container{
+    height: 100vh;
+    background-image: url(../images/home\ page.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.main_slogan {
+    width: 90%;
+    font-size: 40px;
+    text-align: center;
+    color: #FFF;
+    font-weight: bold;
+
+}
+
+.main_container>.card{
+    width: 90%;
+    border: solid 1px #4b4949;
+}
+.card-header{
+    text-align: center;
+    border-style: none;
+    background-color: #bc986a;
+    color: white;
+}
+
+.card-title{
+    text-transform: uppercase
+    ;
+}
+.card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+/* ----------------------- Début de la div take action --------------- */
+
+
+.take_action{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.take_action h2{
+    font-size: 16px;
+    padding: 1em;
+    border: solid 1px #bc986a;
+    background-color: #bc986a;
+    color: #FFF;
+    text-align: center;
+    margin-top: 4em;
+}
+.take_action_all{
+    margin-top: 3em;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.take_action_p h3{
+    font-weight: bold;
+    color: #4b4949;
+}
+
+.take_action_p{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 45%;
+    align-content: center;
+}
+
+/* ----------------- Nos Projets ------------------ */
+
+.projects{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 450vh;
+    align-items: center;
+}
+.projects h2{
+    padding: 1em;
+    background-color: #51ade5;
+    color: #FFF;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.projects h3{
+    width: 90%;
+    text-align: center;
+}
+
+.projects h4{
+    text-transform: none;
+    font-weight: bold;
+    font-size: 22px;
+    color: #4b4949;
+ }
+
+ .card-img-top{
+    height: auto;
+    object-fit: contain;
+    width: 100%;
+ }
+
+.projects>.card{
+    display: flex;
+    width: 90%;
+}
