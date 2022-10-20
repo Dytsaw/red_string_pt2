@@ -477,3 +477,55 @@ hr {
         background-color:#51ade5;
     }
 }
+
+/* ---------------- Tablette ----------------------------- */
+@media screen and (min-width:426px) and (max-width:768px) {
+   
+    /* Page d'accueil */
+    .main_container{
+        height: 100vh;
+    }
+    .main_slogan{
+        padding-right: 40vh;
+    }
+
+    /* Faites une action */
+    .main_container>.card>.card-header{
+        min-width: 16vh;
+        margin-right: 550px;
+    }
+    .main_container h4{
+        line-height: 2em;
+        font-size: 30px;
+    }
+    .main_container>.card>.card-body{
+        padding: 0 10vh;
+    }
+    .main_container>.card a{
+        margin-bottom: 20px;
+    }
+    .take_action_p{
+        width: 40%;
+    }
+    /* Nos projets */
+    .projects h2{
+        margin-right: 70%;
+        margin-left: 5%;
+    }
+    .projects img{
+        max-width: 50vh;
+    }
+
+    .projects>.card{
+        display: flex;
+    }
+
+
+    
+}
+
+/* ------------------- Desktop ---------------------------------- */
+@media screen and (min-width:769px){
+
+}
+    
