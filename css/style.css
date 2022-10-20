@@ -357,35 +357,7 @@ h2{
     position: relative;
 
 }
-@media (max-width:560px) {
-    .review{
-        font-size: 20px;
-        font-weight: 600;
-    }
 
-    .job{
-        font-size: 15px;
-        text-transform: uppercase;
-    }
-
-    /* .right{
-        font-size: 12px;
-    }
-    .left{
-        font-size: 12px;
-    } */
-    .carousel-indicators [data-bs-target ] {
-        height: 8px;
-        border: 1px solid #4b4949;
-        width: 8px;
-        background-color: inherit;
-        border-radius: 50%;
-    }
-    .carousel-indicators .active{
-        border: 1px solid transparent;
-        background-color:#51ade5;
-    }
-}
 
 /* ----------------- Newsletter ----------------- */
 .newsletter{
@@ -471,4 +443,37 @@ hr {
 
 .slogan_footer{
     width: 50%;
+}
+
+
+
+/* ------------------------------------------------ Media Queries --------------------------------- */
+@media (max-width:560px) {
+    .review{
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    .job{
+        font-size: 15px;
+        text-transform: uppercase;
+    }
+
+    /* .right{
+        font-size: 12px;
+    }
+    .left{
+        font-size: 12px;
+    } */
+    .carousel-indicators [data-bs-target ] {
+        height: 8px;
+        border: 1px solid #4b4949;
+        width: 8px;
+        background-color: inherit;
+        border-radius: 50%;
+    }
+    .carousel-indicators .active{
+        border: 1px solid transparent;
+        background-color:#51ade5;
+    }
 }
