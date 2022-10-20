@@ -18,6 +18,7 @@ h2{
 }
 
 
+
 /* ------------------ Début du header ----------------- */
 
 .nav-item{
@@ -112,7 +113,7 @@ h2{
     /* justify-content: center; */
     align-items: center;
     justify-content: space-evenly;
-    padding: 25px;
+    padding-left:  15px;
 }
 .take_action_p h3{
     font-weight: bold;
@@ -123,9 +124,10 @@ h2{
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    width: 40%;
+    width: 30vh;
     align-content: center;
 }
+
 
 /* ----------------- Nos Projets ------------------ */
 
@@ -415,6 +417,7 @@ h2{
     color: #51ade5;
     cursor: pointer!important;
     text-align: center;
+    margin: 10px;
 }
 .mb-3>.btn-custom:hover{
     border-radius: 50px;
@@ -426,4 +429,46 @@ h2{
 
 /* ------------------Footer ------------------- */
 
+footer{
+    padding-top: 50px;
+    height: 65vh;
+    display: flex;
+    flex-flow: wrap;
+    align-items: center;
+    align-items: flex-start;
+    align-content: flex-start;
+    row-gap: 10vh;
+}
 
+hr {
+    width: 15vh;
+}
+
+.name_footer{
+    width: 50%;
+    padding-left: 2vh;
+    padding-top: 10px;
+}
+
+.name_footer p{
+    width: 50px;
+}
+
+.contact_us{
+    padding: 10px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.follow_us{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-left: 2vh;
+}
+
+.slogan_footer{
+    width: 50%;
+}
