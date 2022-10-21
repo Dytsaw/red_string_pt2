@@ -277,14 +277,18 @@ h2{
 
 .our_stories_title{
     text-align: center;
-    transform: translateY(12vh);
+    transform: translateX(12vh);
     padding: 1em;
     background-color: #51ade5;
     color: white;
-    margin: 0vh 15vh;
+    position: relative;
+    z-index: 2;
+    margin-right: 10vh;
+    margin-top: 3vh;
+    margin-bottom: 0;
+}
+.our_stories_title h2{
 
-}.our_stories_title h2{
-    z-index: 1;
 }
 
 
@@ -292,9 +296,6 @@ h2{
     background-size: cover;
     width: 100%;
     max-width: 100vh;
-    z-index: 2;
-
-    
 }
 .carousel{
     position: static;
