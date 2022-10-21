@@ -558,18 +558,18 @@ hr {
 .didyouknow_title{
     display: flex;
     justify-content: space-evenly;
-}
+    }
 
 footer{
     padding: 50px;
-}
+    }
 
 
     
 
 
 /* ------------------- Desktop ---------------------------------- */
-@media screen and (min-width:769px){
-
-}
+/* @media screen and (min-width:769px){
+  
+} */
     
