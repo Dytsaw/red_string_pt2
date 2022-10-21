@@ -251,6 +251,7 @@ h2{
 .card-body>.fa{
     font-size: 30px;
     width: 20%;
+    margin-bottom: 15px;
 }
 
 .cards>.card>.card-body p{
@@ -589,7 +590,8 @@ footer{
         min-width: 30vh;
     }
     .main_container>.card h4{
-        font-size: 2em;
+        font-size: 1.5em;
+        padding: 1em;
     }
 
     .main_container>.card>.card-header{
@@ -642,6 +644,10 @@ footer{
     }
     .didyouknow>.cards>.card>.card-header{
         max-width: 40%;
+    }
+
+    .didyouknow>.cards{
+        row-gap: 100px;
     }
     .our_stories_title{
         max-width: 50vh;
