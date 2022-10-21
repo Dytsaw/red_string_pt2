@@ -136,7 +136,7 @@ h2{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    min-height: 280vh;
+    height: 280vh;
     align-items: center;
 
 }
@@ -263,7 +263,7 @@ h2{
 
 /* ---------------- OUR STORY ---------------------- */
 
-.our_stories{
+/* .our_stories{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -273,18 +273,31 @@ h2{
     margin: 0px 60px;
     transform: translateY(20px);
     color: #ffffff;
+} */
+
+.our_stories_title{
+    text-align: center;
+    transform: translateY(12vh);
+    padding: 1em;
+    background-color: #51ade5;
+    color: white;
+    margin: 0vh 15vh;
+
+}.our_stories_title h2{
+    z-index: 1;
 }
 
-.our_stories h2{
-    margin: 0;
-}
 
 .container_carousel img{
     background-size: cover;
     width: 100%;
-    max-height: 65vh;
+    max-width: 100vh;
+    z-index: 2;
 
     
+}
+.carousel{
+    position: static;
 }
 
 .carousel-item{
@@ -479,7 +492,7 @@ hr {
 }
 
 /* ---------------- Tablette ----------------------------- */
-@media screen and (min-width:426px) and (max-width:768px) {
+@media screen and (min-width:550px) and (max-width:768px) {
    
     /* Page d'accueil */
     .main_container{
@@ -508,17 +521,33 @@ hr {
         width: 40%;
     }
     /* Nos projets */
+
+
+    .projects{
+    justify-content: space-evenly;
+    height: 200vh;
+    }
     .projects h2{
         margin-right: 70%;
         margin-left: 5%;
     }
     .projects img{
-        max-width: 50vh;
+        min-width: 38vh;
     }
 
     .projects>.card{
         display: flex;
+        flex-flow: nowrap;
     }
+
+    .projects>.card>.card-body>.card-link{
+        margin-left: 2vh;
+        margin-right: 2vh;
+    }
+
+
+
+
 
 
     
