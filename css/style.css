@@ -196,7 +196,7 @@ h2{
     background-size: cover;
     background-position: 25%;
     margin-top: 5em;
-    min-height: 200vh;
+    min-height: 180vh;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -218,6 +218,9 @@ h2{
     flex-direction: column;
     align-items: center;
     gap: 50px;
+}
+.didyouknow>.cards>.card{
+    width: 100%;
 }
 
 
@@ -542,12 +545,12 @@ hr {
     /*-- Le saviez vous-- */
 
     .didyouknow{
-        min-height: 130vh;
+        height: 180vh;
         display: flex;
         flex-direction: row;
         column-gap: 20px;
         align-items: flex-start;
-        padding-top: 100px;
+        padding-top: 50%;
     }
 
     .didyouknow_title h1{
@@ -557,7 +560,7 @@ hr {
         justify-content: space-evenly;
     }
 
-.didyouknow_title{
+    .didyouknow_title{
     display: flex;
     justify-content: space-evenly;
     }
@@ -629,9 +632,12 @@ footer{
     }
     .didyouknow{
         flex-direction: row;
+        align-items: flex-start;
+        padding-top: 20%;
     }
-    .didyouknow>.cards{
-        justify-content: center;
+    .didyouknow h1{
+        font-size: 60px;
+        width:40%;
     }
 }
 @media screen and (min-width: 1280px){
