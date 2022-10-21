@@ -307,6 +307,7 @@ h2{
     max-width: 800px;
     background-color: white;
     padding: 0;
+    margin-left: 0%;
 
 }
 .review{
@@ -637,7 +638,40 @@ footer{
     }
     .didyouknow h1{
         font-size: 60px;
-        width:40%;
+        max-width:40%;
+    }
+    .didyouknow>.cards>.card>.card-header{
+        max-width: 40%;
+    }
+    .our_stories_title{
+        max-width: 50vh;
+    }
+    .d-flex{
+        justify-content: center;
+    }
+    .newsletter>.mb-3{
+        align-items: center;
+    }
+    .newsletter label{
+        font-size: 25px;
+        margin-bottom: 0;
+    }
+
+    footer{
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        gap: 5px;
+        align-items: center;
+        padding: 50px;
+    }
+    .slogan_footer h1{
+        flex-flow: wrap;
+    }
+    .slogan_footer{
+        width:250px;
+        justify-content: flex-end;
+
     }
 }
 @media screen and (min-width: 1280px){
