@@ -490,8 +490,12 @@ hr {
     }
 }
 
+
+
+/*-------------------------------- MEDIA QUERIES------------------------------ */
+
 /* ---------------- Tablette ----------------------------- */
-@media screen and (min-width:550px) and (max-width:768px) {
+@media screen and (min-width:550px) and (max-width:1024px) {
    
     /* Page d'accueil */
     .main_container{
@@ -575,7 +579,7 @@ footer{
 
 
 /* ------------------- Desktop ---------------------------------- */
-@media screen and (min-width:769px){
+@media screen and (min-width:1024px){
     .main_container{
         flex-direction: row;
         padding: 0 3em;
@@ -685,3 +689,7 @@ footer{
         max-width: 50vh;
     }
 }
+/* 
+Desktop : au delà de 1024 pixels
+Tablette : entre 600 et 1024 pixels (en mode portrait)
+Mobile : entre 320 et 600 pixels (en mode portrait) */
