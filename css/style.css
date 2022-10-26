@@ -495,7 +495,7 @@ hr {
 /*-------------------------------- MEDIA QUERIES------------------------------ */
 
 /* ---------------- Tablette ----------------------------- */
-@media screen and (min-width:550px) and (max-width:1024px) {
+@media screen and (min-width:550px) and (max-width:1023px) {
    
     /* Page d'accueil */
     .main_container{
