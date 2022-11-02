@@ -17,8 +17,6 @@ h2{
     font-size: 16px;
 }
 
-
-
 /* ------------------ Début du header ----------------- */
 
 .nav-item{
@@ -188,6 +186,9 @@ h2{
     margin-top: 1em;
 }
 
+.card-body>.card-link {
+    color: #ffffff;
+}
 /* --------------------- Le saviez-vous ---------------------- */
 
 .didyouknow{
