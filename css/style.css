@@ -585,6 +585,7 @@ footer{
         flex-direction: row;
         padding: 0 3em;
         column-gap: 20px;
+        background-position: 50% 23%;
     }
     .main_slogan{
         font-size: 50px;
