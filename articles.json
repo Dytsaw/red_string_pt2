@@ -1,0 +1,36 @@
+{
+  "articles": [
+    {
+      "titre": "Construction d'une école",
+      "date": "Novembre 12, 2022",
+      "text": "Nous sommes fière de vous présenter la nouvelle école construite en Ouganda pouvant accueillir 200 élèves",
+      "maj": "Mis à jour il y a 2 mins",
+      "bouton" :"",
+      "image" : "./images/image_card_1.png"
+    },
+    {
+      "titre": "Dons de fournitures",
+      "date": "Novembre 5, 2022",
+      "text": "Nous sommes fière de vous partagez la campagne de distribution des fournitures scolaire",
+      "maj": "Mis à jour il y a 2 mins",
+      "bouton" :"",
+      "image" : "./images/image_card_1.png"
+    },
+    {
+      "titre": "Construction d'une école",
+      "date": "Novembre 12, 2022",
+      "text": "Nous sommes fière de vous présenter la nouvelle école construite en Ouganda",
+      "maj": "Mis à jour il y a 2 mins",
+      "bouton" :"",
+      "image" : "./images/image_card_1.png"
+    },
+    {
+      "titre": "Construction d'une école",
+      "date": "Novembre 12, 2022",
+      "text": "Nous sommes fière de vous présenter la nouvelle école construite en Ouganda",
+      "maj": "Mis à jour il y a 2 mins",
+      "bouton" :"",
+      "image" : "./images/image_card_1.png"
+    }
+  ]
+}
