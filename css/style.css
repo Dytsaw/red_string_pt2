@@ -366,7 +366,10 @@ h2{
 
 .carousel-control-next, .carousel-control-prev {
     position: relative;
+}
 
+.carousel-item{
+    transition: transform .3s ease-in-out;
 }
 
 
@@ -622,6 +625,11 @@ footer{
     /* .projects img{
         max-width: 50vh;
     } */
+
+    .carousel-item{
+        transition: transform .6s ease-in-out;
+    }
+    
     .projects{
         height: 120vh;
         display: flex;
