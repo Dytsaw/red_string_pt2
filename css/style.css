@@ -223,12 +223,14 @@ h2{
     flex-direction: column;
     align-items: center;
     gap: 50px;
-    margin-bottom: 10vh;
+    
 }
 .didyouknow>.cards>.card{
     width: 100%;
 }
-
+#card1>.card-body{
+    padding: 0 1.5em 1.5em 1.5em;
+}
 
 .cards>.card>.card-header{
     text-align: center;
@@ -506,14 +508,21 @@ hr {
 /* ---------------- Tablette ----------------------------- */
 @media screen and (min-width:550px) and (max-width:1023px) {
    
+    .navbar-expand-md .navbar-nav .dropdown-menu {
+        position: absolute;
+        top: 40px;
+        left: -30px;
+    }
+
     /* Page d'accueil */
     .main_slogan{
-        padding-right: 40vh;
+        padding-right: 550px;
+        margin-bottom: 1em;
     }
 
     /* Faites une action */
     .main_container>.card>.card-header{
-        min-width: 16vh;
+        min-width: 160px;
         margin-right: 300px;
     }
     .main_container h4{
@@ -582,6 +591,9 @@ hr {
     width: 50%;
     }
 
+    .newsletter>.mb-3{
+        align-items: center;
+    }
 footer{
     padding: 50px;
     }
@@ -599,11 +611,13 @@ footer{
     }
     .main_slogan{
         font-size: 50px;
+        padding-right: 2em;
     }
 
     .main_container>.card{
-        min-height: 40vh;
-        min-width: 30vh;
+        min-height: 350px;
+        min-width: 300px;
+        margin: 8em 0;
     }
     .main_container>.card h4{
         font-size: 1.5em;
@@ -611,23 +625,23 @@ footer{
     }
 
     .main_container>.card>.card-header{
-        max-width: 50vh;
+        max-width: 500px;
     }
     .take_action{
-        height: 50vh;
+        /* height: 50vh; */
         row-gap: 50px;
         justify-content: space-around;
     }
    .take_action_p{
-    min-width: 32vh
+    min-width: 250px;
    }
    .take_action_all{
     margin: 0;
    }
 
     .projects>.card{
-        min-width: 30vh;
-        max-width: 30vh
+        min-width: 300px;
+        max-width: 300px;
     }
     /* .projects img{
         max-width: 50vh;
@@ -638,7 +652,7 @@ footer{
     }
     
     .projects{
-        /* height: 120vh; */
+        margin-top: 5em;
         display: flex;
         flex-flow: wrap;
         padding: 0em 2em;
@@ -658,10 +672,11 @@ footer{
         flex-direction: row;
         align-items: flex-start;
         padding-top: 20%;
+        padding: 10em 3em;
     }
     .didyouknow h1{
         font-size: 60px;
-        max-width:40%;
+        max-width:50%;
     }
     .didyouknow>.cards>.card>.card-header{
         max-width: 40%;
@@ -682,7 +697,9 @@ footer{
     .newsletter label{
         font-size: 25px;
         margin-bottom: 0;
+        margin-right: 3em;
     }
+    
 
     footer{
         display: flex;
@@ -721,7 +738,7 @@ footer{
         margin: 0;
     }
     .didyouknow_title{
-        width: 30%;
+        width: 40%;
         column-gap: 150px;
     }  
 }
