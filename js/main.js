@@ -5,7 +5,6 @@ createApp({
   data() {
     return {
       articles: [],
-      jean:[],
     };
   },
   mounted() {
